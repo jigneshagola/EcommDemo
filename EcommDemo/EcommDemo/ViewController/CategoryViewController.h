@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CategoryViewController.h
 //  EcommDemo
 //
 //  Created by craftsvilla on 21/03/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CategoryViewController : UIViewController
 
 @end
-
