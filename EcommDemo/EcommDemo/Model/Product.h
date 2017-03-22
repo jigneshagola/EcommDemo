@@ -12,9 +12,14 @@
 
 @property (nonatomic,strong) NSNumber *_id;
 @property (nonatomic,strong) NSString *name;
-@property (nonatomic,strong) NSMutableArray *variants;
 @property (nonatomic,strong) NSString *date_added;
+
+@property (nonatomic,strong) NSMutableArray *variants;
 @property (nonatomic,strong) Tax *tax;
+
+@property (nonatomic,strong) NSNumber *viewCount;
+@property (nonatomic,strong) NSNumber *orderCount;
+@property (nonatomic,strong) NSNumber *sharedCount;
 
 - (id)initWithDict:(NSDictionary *)dict;
 

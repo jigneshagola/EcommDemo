@@ -9,6 +9,7 @@
 #import "Product.h"
 #import "NSDictionary+NSNullNull.h"
 #import "Variant.h"
+#import "Tax.h"
 
 @implementation Product
 
@@ -25,7 +26,11 @@
         for (NSDictionary *variantDict in variantArray) {
             Variant *variant = [[Variant alloc] initWithDict:variantDict];
             [self.variants addObject:variant];
+            variant.product = self;
         }
+        
+        NSDictionary *taxDict = [dict getNilOrobjectForKey:@"tax"];
+        self.tax = [[Tax alloc] initWithDict:taxDict];
     }
     return self;
 }

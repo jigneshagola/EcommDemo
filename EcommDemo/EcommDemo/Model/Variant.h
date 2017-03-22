@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Product.h"
 @interface Variant : NSObject
 @property (nonatomic,strong) NSNumber *_id;
 @property (nonatomic,strong) NSString *color;
 @property (nonatomic,strong) NSNumber *size;
 @property (nonatomic,strong) NSNumber *price;
+@property (nonatomic,strong) Product *product;
 
 - (id)initWithDict:(NSDictionary *)dict;
 @end

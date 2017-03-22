@@ -16,4 +16,5 @@
 @property (nonatomic,strong) NSMutableArray *childCategory;
 @property (nonatomic,strong) NSMutableArray *products;
 
+- (id)initWithDict:(NSDictionary *)dict;
 @end

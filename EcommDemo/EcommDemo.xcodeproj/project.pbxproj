@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A1F0071E82923B00E8D109 /* CategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1F0061E82923B00E8D109 /* CategoryTableViewCell.m */; };
+		33A1F00A1E8295A700E8D109 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1F0091E8295A700E8D109 /* ProductListViewController.m */; };
+		33A1F00D1E829A7A00E8D109 /* ProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1F00C1E829A7A00E8D109 /* ProductCollectionViewCell.m */; };
+		33A1F0161E82E9FC00E8D109 /* RankMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1F0151E82E9FC00E8D109 /* RankMapper.m */; };
 		33D2FF1F1E81182700A1DBE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF1E1E81182700A1DBE5 /* main.m */; };
 		33D2FF221E81182700A1DBE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF211E81182700A1DBE5 /* AppDelegate.m */; };
 		33D2FF281E81182700A1DBE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D2FF261E81182700A1DBE5 /* Main.storyboard */; };
@@ -21,6 +25,10 @@
 		33D2FF611E8121CF00A1DBE5 /* Tax.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF601E8121CF00A1DBE5 /* Tax.m */; };
 		33D2FF641E81220800A1DBE5 /* Variant.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF631E81220800A1DBE5 /* Variant.m */; };
 		33D2FF691E8123C200A1DBE5 /* NSDictionary+NSNullNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF681E8123C200A1DBE5 /* NSDictionary+NSNullNull.m */; };
+		33D2FF6D1E81B04100A1DBE5 /* CategoryMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF6C1E81B04100A1DBE5 /* CategoryMapper.m */; };
+		33D2FF701E81B6FF00A1DBE5 /* CatagoryTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF6F1E81B6FF00A1DBE5 /* CatagoryTableViewDataSource.m */; };
+		33D2FF741E81BC9B00A1DBE5 /* CategoryDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF731E81BC9B00A1DBE5 /* CategoryDataSource.m */; };
+		33D2FF781E81D2F600A1DBE5 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D2FF771E81D2F600A1DBE5 /* HeaderView.m */; };
 		67FE8B849196FE34B46BD12A /* libPods-EcommDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4906126673E643CA68B76B6C /* libPods-EcommDemo.a */; };
 		F2FB0B2BE16EF45981E41B13 /* libPods-EcommDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1F4D3299AED1B179814FE /* libPods-EcommDemoUITests.a */; };
 		FA6D8644AF76A4AE54B1CD03 /* libPods-EcommDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A63FB55DB99B68AD8889427D /* libPods-EcommDemoTests.a */; };
@@ -45,6 +53,14 @@
 
 /* Begin PBXFileReference section */
 		04A1F4D3299AED1B179814FE /* libPods-EcommDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1F0051E82923B00E8D109 /* CategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewCell.h; sourceTree = "<group>"; };
+		33A1F0061E82923B00E8D109 /* CategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewCell.m; sourceTree = "<group>"; };
+		33A1F0081E8295A700E8D109 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		33A1F0091E8295A700E8D109 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		33A1F00B1E829A7A00E8D109 /* ProductCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCollectionViewCell.h; sourceTree = "<group>"; };
+		33A1F00C1E829A7A00E8D109 /* ProductCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCollectionViewCell.m; sourceTree = "<group>"; };
+		33A1F0141E82E9FC00E8D109 /* RankMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankMapper.h; sourceTree = "<group>"; };
+		33A1F0151E82E9FC00E8D109 /* RankMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankMapper.m; sourceTree = "<group>"; };
 		33D2FF1A1E81182700A1DBE5 /* EcommDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D2FF1E1E81182700A1DBE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33D2FF201E81182700A1DBE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +89,14 @@
 		33D2FF631E81220800A1DBE5 /* Variant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Variant.m; sourceTree = "<group>"; };
 		33D2FF671E8123C200A1DBE5 /* NSDictionary+NSNullNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSNullNull.h"; sourceTree = "<group>"; };
 		33D2FF681E8123C200A1DBE5 /* NSDictionary+NSNullNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSNullNull.m"; sourceTree = "<group>"; };
+		33D2FF6B1E81B04100A1DBE5 /* CategoryMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryMapper.h; sourceTree = "<group>"; };
+		33D2FF6C1E81B04100A1DBE5 /* CategoryMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryMapper.m; sourceTree = "<group>"; };
+		33D2FF6E1E81B6FF00A1DBE5 /* CatagoryTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatagoryTableViewDataSource.h; sourceTree = "<group>"; };
+		33D2FF6F1E81B6FF00A1DBE5 /* CatagoryTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatagoryTableViewDataSource.m; sourceTree = "<group>"; };
+		33D2FF721E81BC9B00A1DBE5 /* CategoryDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryDataSource.h; sourceTree = "<group>"; };
+		33D2FF731E81BC9B00A1DBE5 /* CategoryDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryDataSource.m; sourceTree = "<group>"; };
+		33D2FF761E81D2F600A1DBE5 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		33D2FF771E81D2F600A1DBE5 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 		4906126673E643CA68B76B6C /* libPods-EcommDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7803E390A2A2B341BAFF6A46 /* Pods-EcommDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcommDemo/Pods-EcommDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7C6B4D62B1237ADFE871B672 /* Pods-EcommDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcommDemo/Pods-EcommDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +135,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33A1F0041E82904800E8D109 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				33A1F0051E82923B00E8D109 /* CategoryTableViewCell.h */,
+				33A1F0061E82923B00E8D109 /* CategoryTableViewCell.m */,
+				33A1F00B1E829A7A00E8D109 /* ProductCollectionViewCell.h */,
+				33A1F00C1E829A7A00E8D109 /* ProductCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		33D2FF111E81182600A1DBE5 = {
 			isa = PBXGroup;
 			children = (
@@ -136,10 +171,12 @@
 		33D2FF1C1E81182700A1DBE5 /* EcommDemo */ = {
 			isa = PBXGroup;
 			children = (
-				33D2FF661E8123C200A1DBE5 /* Category */,
-				33D2FF581E81203C00A1DBE5 /* Model */,
+				33D2FF751E81D2E500A1DBE5 /* CustomView */,
 				33D2FF201E81182700A1DBE5 /* AppDelegate.h */,
 				33D2FF211E81182700A1DBE5 /* AppDelegate.m */,
+				33D2FF6A1E81B00700A1DBE5 /* CustomClass */,
+				33D2FF661E8123C200A1DBE5 /* Category */,
+				33D2FF581E81203C00A1DBE5 /* Model */,
 				33D2FF501E8119AE00A1DBE5 /* Networking */,
 				33D2FF511E8119AE00A1DBE5 /* ViewController */,
 				33D2FF261E81182700A1DBE5 /* Main.storyboard */,
@@ -191,6 +228,8 @@
 			children = (
 				33D2FF551E811DD500A1DBE5 /* CategoryViewController.h */,
 				33D2FF561E811DD500A1DBE5 /* CategoryViewController.m */,
+				33A1F0081E8295A700E8D109 /* ProductListViewController.h */,
+				33A1F0091E8295A700E8D109 /* ProductListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -217,6 +256,39 @@
 				33D2FF681E8123C200A1DBE5 /* NSDictionary+NSNullNull.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		33D2FF6A1E81B00700A1DBE5 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				33D2FF6B1E81B04100A1DBE5 /* CategoryMapper.h */,
+				33D2FF6C1E81B04100A1DBE5 /* CategoryMapper.m */,
+				33D2FF6E1E81B6FF00A1DBE5 /* CatagoryTableViewDataSource.h */,
+				33D2FF6F1E81B6FF00A1DBE5 /* CatagoryTableViewDataSource.m */,
+				33A1F0141E82E9FC00E8D109 /* RankMapper.h */,
+				33A1F0151E82E9FC00E8D109 /* RankMapper.m */,
+				33D2FF711E81BC8900A1DBE5 /* DataSource */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		33D2FF711E81BC8900A1DBE5 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				33D2FF721E81BC9B00A1DBE5 /* CategoryDataSource.h */,
+				33D2FF731E81BC9B00A1DBE5 /* CategoryDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		33D2FF751E81D2E500A1DBE5 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				33D2FF761E81D2F600A1DBE5 /* HeaderView.h */,
+				33D2FF771E81D2F600A1DBE5 /* HeaderView.m */,
+				33A1F0041E82904800E8D109 /* Cell */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		A7ABBAF01619A3DFACBD3A0D /* Pods */ = {
@@ -522,14 +594,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A1F00A1E8295A700E8D109 /* ProductListViewController.m in Sources */,
+				33D2FF781E81D2F600A1DBE5 /* HeaderView.m in Sources */,
 				33D2FF611E8121CF00A1DBE5 /* Tax.m in Sources */,
 				33D2FF641E81220800A1DBE5 /* Variant.m in Sources */,
+				33A1F0071E82923B00E8D109 /* CategoryTableViewCell.m in Sources */,
+				33A1F0161E82E9FC00E8D109 /* RankMapper.m in Sources */,
+				33D2FF6D1E81B04100A1DBE5 /* CategoryMapper.m in Sources */,
 				33D2FF571E811DD500A1DBE5 /* CategoryViewController.m in Sources */,
 				33D2FF221E81182700A1DBE5 /* AppDelegate.m in Sources */,
 				33D2FF5B1E81204B00A1DBE5 /* Category.m in Sources */,
 				33D2FF691E8123C200A1DBE5 /* NSDictionary+NSNullNull.m in Sources */,
 				33D2FF5E1E81205300A1DBE5 /* Product.m in Sources */,
+				33D2FF741E81BC9B00A1DBE5 /* CategoryDataSource.m in Sources */,
+				33D2FF701E81B6FF00A1DBE5 /* CatagoryTableViewDataSource.m in Sources */,
 				33D2FF541E8119CE00A1DBE5 /* NetworkManager.m in Sources */,
+				33A1F00D1E829A7A00E8D109 /* ProductCollectionViewCell.m in Sources */,
 				33D2FF1F1E81182700A1DBE5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
